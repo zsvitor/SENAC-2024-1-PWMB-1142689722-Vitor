@@ -14,9 +14,9 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
           nomeArquivoAvatarCliente: cliente.nomeArquivoAvatarCliente
       };
       localStorage.setItem('LoginCliente', JSON.stringify(loginCliente));
-      window.location.href = 'vitrine.html';
+      window.location.href = '/Vitrine/vitrine.html';
   } else {
-      alert('Atenção; você não é nosso cliente, faça seu cadastro');
-      window.location.href = 'vitrine2.html';
+      alert('Atenção: você ainda não possui cadastro.');
+      window.location.href = '/Vitrine 2/vitrine2.html';
   }
 });

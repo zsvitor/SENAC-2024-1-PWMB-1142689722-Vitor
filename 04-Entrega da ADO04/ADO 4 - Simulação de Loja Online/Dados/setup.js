@@ -3,14 +3,14 @@ const clientes = [
     emailCliente: "cliente1@example.com",
     senhaCliente: "senha123",
     nomeCliente: "Cliente Um",
-    urlAvatarCliente: "Assets/perfil.jpg",
+    urlAvatarCliente: "/Assets/perfil.jpg",
     nomeArquivoAvatarCliente: "perfil.jpg",
   },
   {
     emailCliente: "cliente2@example.com",
     senhaCliente: "senha123",
     nomeCliente: "Cliente Dois",
-    urlAvatarCliente: "Assets/perfil.jpg",
+    urlAvatarCliente: "/Assets/perfil.jpg",
     nomeArquivoAvatarCliente: "perfil.jpg",
   },
 ];
@@ -22,7 +22,7 @@ const produtos = [
     descricaoProduto: "Smartphone de última geração",
     valorUnitarioProduto: 2999.99,
     qtdEstoqueProduto: 50,
-    urlImgProduto: "Assets/celular.jpg",
+    urlImgProduto: "/Assets/celular.jpg",
     nomeArquivoImgProduto: "celular.jpg",
   },
   {
@@ -31,7 +31,7 @@ const produtos = [
     descricaoProduto: "Televisão de última geração",
     valorUnitarioProduto: 3999.99,
     qtdEstoqueProduto: 50,
-    urlImgProduto: "Assets/tv.jpg",
+    urlImgProduto: "/Assets/tv.jpg",
     nomeArquivoImgProduto: "tv.jpg",
   },
   {
@@ -40,7 +40,7 @@ const produtos = [
     descricaoProduto: "Fone Bluetooth de última geração",
     valorUnitarioProduto: 89.99,
     qtdEstoqueProduto: 50,
-    urlImgProduto: "Assets/fone.jpg",
+    urlImgProduto: "/Assets/fone.jpg",
     nomeArquivoImgProduto: "fone.jpg",
   },
   {
@@ -49,7 +49,7 @@ const produtos = [
     descricaoProduto: "Mouse de última geração",
     valorUnitarioProduto: 199.99,
     qtdEstoqueProduto: 50,
-    urlImgProduto: "Assets/mouse.jpg",
+    urlImgProduto: "/Assets/mouse.jpg",
     nomeArquivoImgProduto: "mouse.jpg",
   },
   {
@@ -58,7 +58,7 @@ const produtos = [
     descricaoProduto: "Carregador de última geração",
     valorUnitarioProduto: 49.99,
     qtdEstoqueProduto: 50,
-    urlImgProduto: "Assets/carregador.jpg",
+    urlImgProduto: "/Assets/carregador.jpg",
     nomeArquivoImgProduto: "carregador.jpg",
   },
 ];

@@ -53,6 +53,6 @@ document.addEventListener("DOMContentLoaded", function () {
         JSON.parse(localStorage.getItem("CarrinhoCompras")) || [];
       carrinho.push({ ...produto, quantidade });
       localStorage.setItem("CarrinhoCompras", JSON.stringify(carrinho));
-      window.location.href = "carrinho.html";
+      window.location.href = "/Carrinho/carrinho.html";
     });
 });

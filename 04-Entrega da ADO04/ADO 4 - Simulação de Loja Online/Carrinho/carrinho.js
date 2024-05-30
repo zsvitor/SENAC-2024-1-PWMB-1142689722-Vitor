@@ -40,13 +40,13 @@ document.addEventListener("DOMContentLoaded", function () {
       if (numeroCartao && senhaCartao) {
         alert("Compra efetuada com sucesso");
         localStorage.removeItem("CarrinhoCompras");
-        window.location.href = "vitrine.html";
+        window.location.href = "/Vitrine/vitrine.html";
       }
     });
 
   document
     .getElementById("voltarVitrine")
     .addEventListener("click", function () {
-      window.location.href = "vitrine.html";
+      window.location.href = "/Vitrine/vitrine.html";
     });
 });
